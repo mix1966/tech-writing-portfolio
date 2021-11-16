@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program Files/Oxygen XML Author 24/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program Files/Oxygen XML Author 24/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program Files/Oxygen XML Author 24/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2024/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2024/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css'?>
+<map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:css2fo="http://www.oxygenxml.com/css2fo" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" specializations="@props/deliveryTarget" xtrc="map:1;3:6" xtrf="file:/C:/Users/Brian/Desktop/SAMPLES/gdsl_editor_user_guide.ditamap" xml:lang="en"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><title xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title ">GeoData Server Scripting Language (GDSL) Editor User Guide</title></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
+    <title class="- topic/title ">GeoData Server Scripting Language (GDSL) Editor User Guide</title>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Introduction"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d82e14">Introduction</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_1" type="task"><topicmeta class="- map/topicmeta " data-topic-id="gdsl_editor_functionality"><resourceid appid="gdsl_editor_functionality" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">GDSL Editor Functionality</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">The GDSL Editor allows you to:</shortdesc></topicmeta></topicref></topichead>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Write GDSL Code"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d82e27">Write GDSL Code</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_2" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="what_is_gdsl_code"><resourceid appid="what_is_gdsl_code" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">What is GDSL Code</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">GDSL Code Elements</shortdesc></topicmeta></topicref></topichead>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Validate GDSL Code"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d82e40">Validate GDSL Code</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_3" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="what_is_valid_gdsl_code"><resourceid appid="what_is_valid_gdsl_code" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">What is Valid GDSL Code</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">How to write valid GDSL code</shortdesc></topicmeta></topicref></topichead>
+    <topichead is-chapter="true" class="+ map/topicref mapgroup-d/topichead " navtitle="Encode GDSL Code for KML Transmittal"><topicmeta class="- map/topicmeta "><navtitle class="- topic/navtitle " href="#d82e53">Encode GDSL Code for KML Transmittal</navtitle></topicmeta><topicref class="- map/topicref " href="#unique_4" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="encoded_gdsl"><resourceid appid="encoded_gdsl" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">Encoded GDSL</navtitle><?ditaot gentext?><?ditaot genshortdesc?><shortdesc class="- map/shortdesc ">How to encode GDSL into a format for transmittal by http</shortdesc></topicmeta></topicref></topichead>
+</opentopic:map><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d82e14" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Introduction</ph></title><task class="- topic/topic task/task " id="unique_1" topicrefclass="- map/topicref " nd:nd-id="gdsl_editor_functionality" oid="gdsl_editor_functionality" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">GDSL Editor Functionality</ph></title>
+    <shortdesc class="- topic/shortdesc ">The GDSL Editor allows you to:</shortdesc>
+    <taskbody class="- topic/body task/taskbody ">
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Write GDSL Code</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Validate GDSL Code for Proper Form</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Encode GDSL Code for Keyhole Markup Language (KML) Transmittal</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d82e27" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Write GDSL Code</ph></title><concept class="- topic/topic concept/concept " id="unique_2" topicrefclass="- map/topicref " nd:nd-id="what_is_gdsl_code" oid="what_is_gdsl_code" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">What is GDSL Code</ph></title>
+    <shortdesc class="- topic/shortdesc ">GDSL Code Elements</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">GDSL is a simple scripting language consisting of:</p>
+        <ul class="- topic/ul " id="unique_2_Connect_42_ul_sbm_qgf_4rb" nd:nd-id="ul_sbm_qgf_4rb">
+            <li class="- topic/li ">If/Else conditional statements</li>
+            <li class="- topic/li ">And/Or boolean statements</li>
+            <li class="- topic/li ">Assignment (=), comparison (&gt;=, etc.) and mathematical (+, -, etc.) operators</li>
+            <li class="- topic/li ">Output literals (Output.Red, Output.Green and Output.Blue)</li>
+            <li class="- topic/li ">Data layer names. These are server-side image and data files (e.g. LandCover,
+                ContinentalUSElevation)</li>
+            <li class="- topic/li ">Variables</li>
+        </ul>
+        <image class="- topic/image " href="file:/C:/Users/Brian/Pictures/GDSLEditor1.png" id="unique_2_Connect_42_image_qpt_vhf_4rb" nd:nd-id="image_qpt_vhf_4rb" placement="inline"/>
+        <p class="- topic/p ">The screenshot above represents a combination of two different types of datasets
+            (elevation and image) combined and evaluated using GDSL to form the output image sent to
+            the client.</p>
+    </conbody>
+</concept></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d82e40" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Validate GDSL Code</ph></title><concept class="- topic/topic concept/concept " id="unique_3" topicrefclass="- map/topicref " nd:nd-id="what_is_valid_gdsl_code" oid="what_is_valid_gdsl_code" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">What is Valid GDSL Code</ph></title>
+    <shortdesc class="- topic/shortdesc ">How to write valid GDSL code</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">While GDSL is a simple scripting language, it gives users a lot of flexibility with
+            authored image and data files. There are rules to writing valid GDSL code, however:</p>
+        <ul class="- topic/ul " id="unique_3_Connect_42_ul_pln_clf_4rb" nd:nd-id="ul_pln_clf_4rb">
+            <li class="- topic/li ">If and Else are the only branching/conditional statements.</li>
+            <li class="- topic/li ">There is no iteration or recursion as there are no 'for' or 'while' loops.</li>
+            <li class="- topic/li ">There are no functions.</li>
+            <li class="- topic/li ">All variables are global in scope.</li>
+            <li class="- topic/li ">Braces must be used for any statements/expressions longer than one line.</li>
+        </ul>
+        <codeblock class="+ topic/pre pr-d/codeblock " id="unique_3_Connect_42_codeblock_jpg_kmf_4rb" nd:nd-id="codeblock_jpg_kmf_4rb" xml:space="preserve">
+if (ConUSElevation &lt;= 3)
+output.blue = 128;
+else
+{
+output.red = ConUS.red;
+output.green = ConUS.green;
+output.blue = ConUS.blue;
+}</codeblock>
+        <p class="- topic/p ">Sample Valid GDSL program</p>
+        <p class="- topic/p ">Once you have entered GDSL code into the Editor, you click Validate to make sure it is
+            well-formed and valid. If it is valid then the button's color will change to green and
+            if not, the button's color will be red.</p>
+    </conbody>
+</concept></topic><topic xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" break-before="true" is-chapter="true" class="+ topic/topic pdf2-d/placeholder " id="d82e53" topicrefclass="+ map/topicref mapgroup-d/topichead "><title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Encode GDSL Code for KML Transmittal</ph></title><concept class="- topic/topic concept/concept " id="unique_4" topicrefclass="- map/topicref " nd:nd-id="encoded_gdsl" oid="encoded_gdsl" specializations="@props/deliveryTarget">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Encoded GDSL</ph></title>
+    <shortdesc class="- topic/shortdesc ">How to encode GDSL into a format for transmittal by http</shortdesc>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Upon successful validation of the code: <ul class="- topic/ul " id="unique_4_Connect_42_ul_ccb_z23_prb" nd:nd-id="ul_ccb_z23_prb">
+                <li class="- topic/li ">Click Encode, and if no error occurs, then the button's background color will
+                    change to green. This encodes the GDSL into a format that be transported via
+                    HTTP and KML.</li>
+            </ul><ul class="- topic/ul " id="unique_4_Connect_42_ul_l3g_1f3_prb" nd:nd-id="ul_l3g_1f3_prb">
+                <li class="- topic/li ">Click Save Encoding to copy the encoded GDSL to memory and then paste it into
+                    the Capabilities.kml file on the GDS server.</li>
+            </ul></p>
+    </conbody>
+</concept></topic></map>

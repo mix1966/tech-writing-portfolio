@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_valid_gdsl_code">
+    <title>What is Valid GDSL Code</title>
+    <shortdesc>How to write valid GDSL code</shortdesc>
+    <conbody>
+        <p>While GDSL is a simple scripting language, it gives users a lot of flexibility with
+            authored image and data files. There are rules to writing valid GDSL code, however:</p>
+        <ul id="ul_pln_clf_4rb">
+            <li>If and Else are the only branching/conditional statements.</li>
+            <li>There is no iteration or recursion as there are no 'for' or 'while' loops.</li>
+            <li>There are no functions.</li>
+            <li>All variables are global in scope.</li>
+            <li>Braces must be used for any statements/expressions longer than one line.</li>
+        </ul>
+        <codeblock id="codeblock_jpg_kmf_4rb">
+if (ConUSElevation &lt;= 3)
+output.blue = 128;
+else
+{
+output.red = ConUS.red;
+output.green = ConUS.green;
+output.blue = ConUS.blue;
+}</codeblock>
+        <p>Sample Valid GDSL program</p>
+        <p>Once you have entered GDSL code into the Editor, you click Validate to make sure it is
+            well-formed and valid. If it is valid then the button's color will change to green and
+            if not, the button's color will be red.</p>
+    </conbody>
+</concept>

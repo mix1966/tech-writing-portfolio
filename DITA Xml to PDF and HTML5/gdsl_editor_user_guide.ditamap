@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>GeoData Server Scripting Language (GDSL) Editor User Guide</title>
+    <topichead navtitle="Introduction">
+        <topicref href="gdsl_editor_functionality.dita"/>
+    </topichead>
+    <topichead navtitle="Write GDSL Code">
+        <topicref href="what_is_gdsl_code.dita"/>
+    </topichead>
+    <topichead navtitle="Validate GDSL Code">
+        <topicref href="what_is_valid_gdsl_code.dita"/>
+    </topichead>
+    <topichead navtitle="Encode GDSL Code for KML Transmittal">
+        <topicref href="encoded_gdsl.dita"/>
+    </topichead>
+</map>

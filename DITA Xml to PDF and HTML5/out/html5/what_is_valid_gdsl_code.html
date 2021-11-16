@@ -1,0 +1,30 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="DC.rights.owner" content="(C) Copyright 2021"><meta name="copyright" content="(C) Copyright 2021"><meta name="generator" content="DITA-OT"><meta name="DC.type" content="concept"><meta name="description" content="How to write valid GDSL code"><meta name="DC.format" content="HTML5"><meta name="DC.identifier" content="what_is_valid_gdsl_code"><link rel="stylesheet" type="text/css" href="commonltr.css"><title>What is Valid GDSL Code</title></head><body id="what_is_valid_gdsl_code"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">What is Valid GDSL Code</h1>
+    
+    <div class="body conbody"><p class="shortdesc">How to write valid GDSL code</p>
+        <p class="p">While GDSL is a simple scripting language, it gives users a lot of flexibility with
+            authored image and data files. There are rules to writing valid GDSL code, however:</p>
+        <ul class="ul" id="what_is_valid_gdsl_code__ul_pln_clf_4rb">
+            <li class="li">If and Else are the only branching/conditional statements.</li>
+            <li class="li">There is no iteration or recursion as there are no 'for' or 'while' loops.</li>
+            <li class="li">There are no functions.</li>
+            <li class="li">All variables are global in scope.</li>
+            <li class="li">Braces must be used for any statements/expressions longer than one line.</li>
+        </ul>
+        <pre class="pre codeblock" id="what_is_valid_gdsl_code__codeblock_jpg_kmf_4rb"><code>
+if (ConUSElevation &lt;= 3)
+output.blue = 128;
+else
+{
+output.red = ConUS.red;
+output.green = ConUS.green;
+output.blue = ConUS.blue;
+}</code></pre>
+        <p class="p">Sample Valid GDSL program</p>
+        <p class="p">Once you have entered GDSL code into the Editor, you click Validate to make sure it is
+            well-formed and valid. If it is valid then the button's color will change to green and
+            if not, the button's color will be red.</p>
+    </div>
+</article></main></body></html>

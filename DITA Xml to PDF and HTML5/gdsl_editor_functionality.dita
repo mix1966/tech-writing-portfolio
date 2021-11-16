@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="gdsl_editor_functionality">
+    <title>GDSL Editor Functionality</title>
+    <shortdesc>The GDSL Editor allows you to:</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Write GDSL Code</cmd>
+            </step>
+            <step>
+                <cmd>Validate GDSL Code for Proper Form</cmd>
+            </step>
+            <step>
+                <cmd>Encode GDSL Code for Keyhole Markup Language (KML) Transmittal</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

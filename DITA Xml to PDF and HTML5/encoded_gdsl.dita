@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="encoded_gdsl">
+    <title>Encoded GDSL</title>
+    <shortdesc>How to encode GDSL into a format for transmittal by http</shortdesc>
+    <conbody>
+        <p>Upon successful validation of the code: <ul id="ul_ccb_z23_prb">
+                <li>Click Encode, and if no error occurs, then the button's background color will
+                    change to green. This encodes the GDSL into a format that be transported via
+                    HTTP and KML.</li>
+            </ul><ul id="ul_l3g_1f3_prb">
+                <li>Click Save Encoding to copy the encoded GDSL to memory and then paste it into
+                    the Capabilities.kml file on the GDS server.</li>
+            </ul></p>
+    </conbody>
+</concept>

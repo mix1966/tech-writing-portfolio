@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="what_is_gdsl_code">
+    <title>What is GDSL Code</title>
+    <shortdesc>GDSL Code Elements</shortdesc>
+    <conbody>
+        <p>GDSL is a simple scripting language consisting of:</p>
+        <ul id="ul_sbm_qgf_4rb">
+            <li>If/Else conditional statements</li>
+            <li>And/Or boolean statements</li>
+            <li>Assignment (=), comparison (>=, etc.) and mathematical (+, -, etc.) operators</li>
+            <li>Output literals (Output.Red, Output.Green and Output.Blue)</li>
+            <li>Data layer names. These are server-side image and data files (e.g. LandCover,
+                ContinentalUSElevation)</li>
+            <li>Variables</li>
+        </ul>
+        <image href="../../Pictures/GDSLEditor1.png" id="image_qpt_vhf_4rb"/>
+        <p>The screenshot above represents a combination of two different types of datasets
+            (elevation and image) combined and evaluated using GDSL to form the output image sent to
+            the client.</p>
+    </conbody>
+</concept>
